@@ -3,4 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+
+   <!-- <servlet>
+        <servlet-name>DBForServlet</servlet-name>
+        <servlet-class>Servlet.DBForServlet</servlet-classServlet>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DBForServlet</servlet-name>
+        <url-pattern>/Servlet/DBForServlet</url-pattern>
+    </servlet-mapping>-->
+
+    <servlet>
+        <servlet-name>Servelt</servlet-name>
+        <servlet-class>Servlet.Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servelt</servlet-name>
+        <url-pattern>/Servlet/Servlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>

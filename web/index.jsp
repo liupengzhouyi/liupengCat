@@ -8,9 +8,26 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>首页</title>
+    <link href="ll.css" type="text/css" rel="stylesheet">
+  </head>
   </head>
   <body>
-  $END$
+  <div id="asd">
+      <button>
+          <a href="https://www.baidu.com">
+              登陆
+          </a>
+      </button>
+
+      <button>
+          <a href="https://www.bing.com">
+              注册
+          </a>
+      </button>
+  </div>
+
+
+
   </body>
 </html>
