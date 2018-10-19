@@ -30,7 +30,6 @@ public class Servlet extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
